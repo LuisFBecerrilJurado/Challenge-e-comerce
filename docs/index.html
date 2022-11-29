@@ -11,7 +11,7 @@
 </head>
 
 <body class="grid layout">
-    <aside class="grid md:sticky md:top-0 bg-transparent sm:col-span-1 " id="nav">
+    <aside class="grid md:sticky md:top-0 bg-transparent sm:col-span-1 static" id="nav">
         <div class="block w-auto mx-auto">
             <button id="boton"
                    class="flex float-right items-center justify-center h-12 w-12 bg-teal-500 border border-teal-400 rounded hover:text-fuente hover:border-white sm:hidden ">
@@ -20,12 +20,11 @@
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                 </svg>
             </button>
-            <nav aria-label="Main Nav" class="m-0 flex flex-col space-y-6 text-fuente bg-transparent rounded-lg text-md"
-                id="menu">
+            <nav aria-label="Main Nav" class="m-0 flex flex-col space-y-6 text-fuente bg-transparent rounded-lg text-md" id="menu">
                 <a href="#">
                     <img src="./assets/img/default_transparent_1000x1000.png" alt="logo Tienda" class="mx-auto h-52">
                 </a>
-                <a href="#tienda" class=" flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                <a href="#tienda" class=" flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                     <svg style="color: white" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" zoomAndPan="magnify"
                         viewBox="0 0 810 809.999993" class="w-5 h-5">
@@ -56,7 +55,7 @@
                     </svg>
                     <span class="ml-3 text-sm font-medium"> Inicio </span>
                 </a>
-                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                     <svg style="color: white" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"
                         class="w-5 h-5">
                         <path fill="white"
@@ -69,7 +68,7 @@
 
                     <span class="ml-3 text-sm font-medium"> Carrito </span>
                 </a>
-                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                     <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-5 h-5">
                         <rect width="256" height="256" fill="none"></rect>
                         <path
@@ -79,7 +78,7 @@
 
                     <span class="ml-3 text-sm font-medium"> Balones </span>
                 </a>
-                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                     <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16" class="w-5 h-5">
                         <path
@@ -90,7 +89,7 @@
                 </a>
                 <details class="group">
                     <summary
-                        class="flex items-center px-2 py-2 rounded-lg cursor-pointer hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 rounded-lg cursor-pointer hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
                             class="w-5 h-5">
                             <rect width="256" height="256" fill="none"></rect>
@@ -114,21 +113,21 @@
                         </span>
                     </summary>
                     <a href="#"
-                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <span class="ml-3 text-sm font-medium"> Equipos </span>
                     </a>
                     <a href="#"
-                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <span class="ml-3 text-sm font-medium"> Selecciones </span>
                     </a>
                     <a href="#"
-                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <span class="ml-3 text-sm font-medium"> Diseña tu propio jersey </span>
                     </a>
                 </details>
                 <details class="group">
                     <summary
-                        class="flex items-center px-2 py-2 rounded-lg cursor-pointer hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 rounded-lg cursor-pointer hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
                             class="w-5 h-5">
                             <rect width="256" height="256" fill="none"></rect>
@@ -152,7 +151,7 @@
                         </span>
                     </summary>
                     <a href="#"
-                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                             class="w-5 h-5">
                             <path
@@ -165,7 +164,7 @@
                         <span class="ml-3 text-sm font-medium"> Tenis </span>
                     </a>
                     <a href="#"
-                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                             class="w-5 h-5">
                             <path
@@ -175,7 +174,7 @@
                         <span class="ml-3 text-sm font-medium"> Futbol Americano </span>
                     </a>
                     <a href="#"
-                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                        class="flex items-center px-2 py-2 ml-4 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                         <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                             class="w-5 h-5">
                             <path
@@ -185,7 +184,7 @@
                         <span class="ml-3 text-sm font-medium"> Natación </span>
                     </a>
                 </details>
-                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                     <svg style="color: white" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                         <path d="M7.19549 8H21V16H7.19549L3 12L7.19549 8Z" stroke="#333333" stroke-width="2"
@@ -195,11 +194,9 @@
                     </svg>
                     <span class="ml-3 text-sm font-medium"> Ofertas </span>
                 </a>
-                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900">
+                <a href="#" class="flex items-center px-2 py-2 rounded-lg hover:bg-enfoque hover:text-gray-900 transition ease-in-out duration-500">
                     <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-5 h-5">
-                        <path
-                            d="M96 128C96.53 128 97.07 128 97.6 128C105 91.49 137.3 64 176 64C190.1 64 204.1 68.1 216.9 75.25C230.2 49.55 257.1 32 288 32C318.9 32 345.8 49.56 359.1 75.25C371 68.1 385 64 400 64C438.7 64 470.1 91.49 478.4 128C478.9 128 479.5 128 480 128C515.3 128 544 156.7 544 192C544 203.7 540.9 214.6 535.4 224H40.56C35.12 214.6 32 203.7 32 192C32 156.7 60.65 128 96 128H96zM16 283.4C16 268.3 28.28 256 43.43 256H532.6C547.7 256 560 268.3 560 283.4C560 356.3 512.6 418.2 446.9 439.8C447.6 442.4 448 445.2 448 448C448 465.7 433.7 480 416 480H160C142.3 480 128 465.7 128 448C128 445.2 128.4 442.4 129.1 439.8C63.4 418.2 16 356.3 16 283.4H16z"
-                            fill="white"></path>
+                        <path d="M96 128C96.53 128 97.07 128 97.6 128C105 91.49 137.3 64 176 64C190.1 64 204.1 68.1 216.9 75.25C230.2 49.55 257.1 32 288 32C318.9 32 345.8 49.56 359.1 75.25C371 68.1 385 64 400 64C438.7 64 470.1 91.49 478.4 128C478.9 128 479.5 128 480 128C515.3 128 544 156.7 544 192C544 203.7 540.9 214.6 535.4 224H40.56C35.12 214.6 32 203.7 32 192C32 156.7 60.65 128 96 128H96zM16 283.4C16 268.3 28.28 256 43.43 256H532.6C547.7 256 560 268.3 560 283.4C560 356.3 512.6 418.2 446.9 439.8C447.6 442.4 448 445.2 448 448C448 465.7 433.7 480 416 480H160C142.3 480 128 465.7 128 448C128 445.2 128.4 442.4 129.1 439.8C63.4 418.2 16 356.3 16 283.4H16z" fill="white"></path>
                     </svg>
                     <span class="ml-3 text-sm font-medium"> Suplementos Alimenticios </span>
                 </a>
@@ -221,7 +218,7 @@
             </nav>
         </div>
     </aside>
-    <main class="flex flex-col mt-10 sm:mt-0 col-span-1 sm:col-span-1 md:col-span-3  w-full mx-0 h-screen">
+    <main class="flex flex-col mt-10 sm:mt-0 col-span-1 sm:col-span-1 md:col-span-3 w-full">
         <article
             class="w-11/12 mx-auto h-80 col-span-1 mt-5 py-6 rounded-2xl transition hover:scale-105 duration-500  hover:shadow-enfoque hover:shadow-lg"
             style="
@@ -278,9 +275,9 @@
         <span class="col-span-1  md:col-span-3 mt-8 w-11/12 border-t-2 mx-auto py-3 border-white"></span>
         <article class="block   justify-center py-6 rounded-2xl bg-white w-full md:w-11/12 mx-auto ">
             <section class="flex flex-col md:flex-row">
-                <div class="flex flex-col items-center md:items-start md:ml-3 w-full  justify-center w-1/2">
+                <div class="flex flex-col  items-center md:items-start md:ml-3 w-full justify-center md:w-1/2">
                     <h1 class="items-center text-3xl text-blue-700">DESTACADOS</h1>
-                    <P class="flex flex-wrap w-3/4 mb-4 italic text-black text-base text-justify">Descubre los productos destacados de esta semana para estar siempre con las últimas tendencias</P>
+                    <P class="flex flex-wrap  w-11/12 mb-4 italic text-black text-base text-justify">Descubre los productos destacados de esta semana para estar siempre con las últimas tendencias</P>
                 </div>
                 <div class="flex flex-col space-y-4">
                     <a href="#" class="flex w-11/12 mx-auto hover:shadow-gray-300 hover:shadow-lg rounded-2xl">
@@ -326,7 +323,7 @@
             </button>
         </article>
         <span class="col-span-1  md:col-span-3 mt-8 w-11/12 border-t-2 mx-auto py-3 border-white"></span>
-        <article class="block  justify-center py-6 rounded-2xl w-11/12 mx-auto md:flex">
+        <article class="block py-6 rounded-2xl w-11/12 mx-auto md:flex">
             <h2 class="text-fuente md:w-1/2 md:flex md:items-center">Contamos con las mejores marcas</h2>
             <div class="flex mt-8 flex-wrap md:w-1/2 ">
                 <span class="mx-4 my-4 md:mx-6 transition hover:scale-110 duration-500">
@@ -386,6 +383,156 @@
             </div>
         </article>
     </main>
+    <footer class="block col-span-1 sm:col-span-2 md:col-span-4 w-full bg-gray-100">
+        <div class="flex mx-auto max-w-screen-xl px-4 pt-6 pb-6 sm:px-6 lg:px-8 lg:pt-12">
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-4">
+                <div class="footer-main-section"> 
+                    <p class="footer-description">
+                        Tienda de articulos deportivos contamos con una gran variedad de articulos y de las mejores marcas, estamos ubicados en Toluca, México
+                    </p>
+
+                    <ul class="flex footer-links-section">
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="footer-links">
+                                <span class="sr-only">Facebook</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="footer-links">
+                                <span class="sr-only">Instagram</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="footer-links">
+                                <span class="sr-only">Twitter</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/LuisFBecerrilJurado" rel="noreferrer" target="_blank"
+                                class="footer-links">
+                                <span class="sr-only">GitHub</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/luis-francisco-becerril-jurado-255753127" rel="noreferrer" target="_blank"
+                                class="footer-links">
+                                <span class="sr-only">Linkedin</span>
+                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col footer-section-services">
+                    <p class="text-lg font-medium text-gray-900">Nuestros Servicios</p>
+                    <nav aria-label="Footer Services Nav" class="mt-4">
+                        <ul class="space-y-4 text-sm">
+                            <li>
+                                <a class="footer-links" href="/">
+                                    Desarrollo Web
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="/">
+                                    Diseño Web
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="/">
+                                    Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-links" href="/">
+                                    Google Ads
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="text-center">
+                    <p class="text-lg font-medium text-gray-900">Contactanos</p>
+                    <ul class="mt-8 space-y-4 text-sm">
+                        <li>
+                            <a class="flex items-center justify-center gap-1.5 " href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-gray-900"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+
+                                <span class="text-gray-700">l.francisco.bj@gmail.com</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="flex items-center justify-center gap-1.5" href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-gray-900"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+
+                                <span class="text-gray-700">0123456789</span>
+                            </a>
+                        </li>
+
+                        <li class="flex items-start justify-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-gray-900"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+
+                            <address class="-mt-0.5 not-italic text-gray-700">
+                                Toluca, Estado de México, México
+                            </address>
+                        </li>
+                    </ul>
+                    <div class="text-sm mt-6 text-center text-gray-700">
+                        <p>Dejanos tu email y nos contacremos contigo</p>
+                        <input type="email" placeholder="email" class="rounded-lg border-red-500 text-center px-2 mx-auto w-3/4 mt-3">
+                    </div>
+                </div>
+                <div class="mt-12 border-t border-gray-100 pt-6 col-span-1 md:col-span-4 mx-auto">
+                    <div class="text-center sm:flex sm:justify-between sm:text-left">
+                        <p class="mt-4 text-sm underline text-gray-500  sm:mt-0">
+                            &copy; 2022 Luis Francisco Becerril Jurado Oracle ONE Challenge tienda virtual
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./assets/js/script.js"></script>
 </body>
 
